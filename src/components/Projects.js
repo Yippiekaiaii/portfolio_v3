@@ -63,8 +63,8 @@ const Projects = () => {
 
             <div className="project">
               <a href="#" id="project3" onClick={toggleOverlay}>
-                <div class = "projectline project3">
-                    <div class = "project-link project3">
+                <div className = "projectline project3">
+                    <div className = "project-link project3">
                         <div className='project_contents'>
                             <h4>Job Search Web Scraper</h4>
                             <img src="images/jobsearch.png" alt="Job Search Web Scraper" className='project_thumb'/>
