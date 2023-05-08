@@ -25,7 +25,7 @@ const Projects = () => {
   return (
     <div>
 
-      <div className='content_header'>
+      <div className='content_header project_header'>
         <h3>Projects</h3>
         <p>Here you can find example projects that I have made to demonstrate my skills.</p>
         <p>Click on any project to find out more about it</p>

@@ -429,6 +429,20 @@ a:visited{
       margin-right:8px;    
     }
 
+    .project_header{
+      margin-left:8px;
+      margin-right:8px;    
+    }
+
+    .project_overlay_columns{
+      display:block;
+    }
+
+    .project_left_column p {
+      max-width: 100%;
+      font-size: 12px;
+    }
+
 
 }
 
