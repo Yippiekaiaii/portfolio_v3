@@ -1,8 +1,6 @@
 
 import {React, useState} from 'react'
-
-
-
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -22,15 +20,15 @@ const Header = () => {
     </div>
 
     <div className="carat_menu">
-        <a href="#" className="menu_toggle" onClick={toggleMenu}><img src="images/carat.png" alt="Menu"/></a>       
+        <Link className="menu_toggle" onClick={toggleMenu}><img src="images/carat.png" alt="Menu"/></Link>       
     </div>
 
     {isMenuVisible && (
       <ul className="menu_list">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About Me</a></li>
-              <li><a href="/projects">Projects</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About Me</Link></li>
+              <li><Link to="/projects">Projects</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
       </ul>
     )}
 
