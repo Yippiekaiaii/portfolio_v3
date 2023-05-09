@@ -144,16 +144,19 @@ const Projects = () => {
                   <div className='project_overlay_columns'>
                       <div className='project_left_column'>                  
                         <img src="images/pizzadelivery.png" alt="Pizza Delivery Screen shot" className='project_img'/>
-                        <p>This website was made to demonstrate my full stack web development skills as part of my first portfolio.</p> 
-                        <p>The server side was written using Node.JS and features packages such as express, passport and bcrypt. It uses EJS to handle views and mongoose to connect to a MongoDB Atlas cluster.</p>
-                        <p>The styling was done using Bootstrap</p>    
+
+                        <p>As part of my first portfolio, I created this website to showcase my full-stack web development skills.</p> 
+                        <p>The server-side of the website was built using Node.js and incorporates essential packages such as Express, Passport, and Bcrypt. </p> 
+                        <p>The website's views were handled using EJS, and for database connectivity, the website utilizes Mongoose to connect to a MongoDB Atlas cluster.</p>
+                        <p>Additionally, the website's styling was implemented using Bootstrap to achieve a polished and professional look.</p>
+                        
                       </div>  
 
                       <div className='project_right_column'>
                         <h5>Links</h5>
                       
                         <ul>
-                          <li><a href="https://petespizzas.herokuapp.com/" target="_blank">Visit Site</a></li>
+                          <li><a href="https://pizzadel-1u5i.onrender.com/" target="_blank">Visit Site</a></li>
                           <li><a href="https://github.com/Yippiekaiaii/PizzaDelivery" target="_blank">Github<img src="images/icons/github.png" alt="Github" className="project_icons"/></a></li>                          
                         </ul>
 
@@ -181,8 +184,10 @@ const Projects = () => {
                   <div className='project_overlay_columns'>
                       <div className='project_left_column'>                  
                         <img src="images/jobsearch.png" alt="Job Search Screen shot" className='project_img'/>
-                        <p>The intent with this project was to make a simple app that pulls job search data from multiple web sites for more efficient searching</p>
-                        <p>The server side was written using Node.JS and puppeteer which takes the user search input, opens multiple websites and then retrieves jobs listings. It then desplays the results in a listing from which the individual job links can be directly accessed</p>
+                        <p>The goal of this project was to create a user-friendly app that streamlines the job search process by gathering job search data from multiple websites.</p>
+                        <p>To achieve this goal, the server-side of the app was built using Node.js and the Puppeteer library. </p>
+                        <p>The app takes user input for job search criteria and opens several websites to retrieve relevant job listings.</p>
+                        <p>It then displays the job search results in a clear and organized list format, with direct links to each job for easy access.</p>
                       </div>  
 
                       <div className='project_right_column'>
