@@ -12,10 +12,11 @@ const Home = () => {
           <div className = "home_icons">
             <img src="images/icons/react.png"/> 
             <img src="images/icons/nodejs.png"/> 
+            <img src="images/icons/java-script.png"/>   
+            <img src="images/icons/typescript.png"/> 
             <img src="images/icons/html.png"/>
             <img src="images/icons/css-3.png"/>
-            <img src="images/icons/bootstrap.png"/>
-            <img src="images/icons/java-script.png"/>                      
+            <img src="images/icons/bootstrap.png"/>                                
             <img src="images/icons/c-sharp.png"/>            
           </div>
         </div>

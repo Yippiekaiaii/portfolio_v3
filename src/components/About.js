@@ -18,6 +18,7 @@ const About = () => {
               <li>React</li>
               <li>Node.js</li>
               <li>Javascript</li>
+              <li>TypeScript</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>Bootstrap</li>
@@ -28,7 +29,8 @@ const About = () => {
           <div className = "about_icons">
               <img src="images/icons/react.png"/>  
               <img src="images/icons/nodejs.png"/>  
-              <img src="images/icons/java-script.png"/>           
+              <img src="images/icons/java-script.png"/>  
+              <img src="images/icons/typescript.png"/>          
               <img src="images/icons/html.png"/>
               <img src="images/icons/css-3.png"/>
               <img src="images/icons/bootstrap.png"/>                                   
